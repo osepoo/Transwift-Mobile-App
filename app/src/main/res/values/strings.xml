@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Transwift</string>
+    <string name="enter_full_name_here">Enter Full Name Here</string>
+    <string name="enter_age_here">Enter Age Here</string>
+    <string name="enter_email_here">Enter Email Here</string>
+    <string name="enter_password_here">Enter Password Here</string>
+    <string name="register">REGISTER</string>
+    <string name="todo">TODO</string>
+    <string name="logout">LOGOUT</string>
+    <string name="x">x</string>
+    <string name="open_menu">Open</string>
+    <string name="close_menu">Close</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">LOGIN</string>
+    <string name="submit">SUBMIT</string>
+    <string name="todo2">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="where_are_you_going_to">Where are you going to</string>
+    <string name="where_are_you_booking_from">Where are you booking from</string>
+    <string name="thank_you_again_for_choosing_us_feel_free_to_communicate_directly_with_us_over_our_24_7_hotline_just_dial_010444478_and_someone_will_be_with_you_in_a_short_while">Thank you again for choosing us. Feel free to communicate directly with us over our 24/7 hotline just dial 010444478 and someone will be with you in a short while</string>
+    <string name="we_make_it_easier">We Make It Easier</string>
+
+</resources>

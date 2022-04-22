@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondHome"
+    android:orientation="vertical"
+    android:background="@drawable/background_1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100sp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="TODO"
+                android:src="@drawable/transwift"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/loginbanner3"
+                    android:layout_width="170sp"
+                    android:layout_height="100sp"
+                    android:src="@mipmap/transwiftlite"
+                    />
+                <TextView
+                    android:id="@+id/greetings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="USERNAME IS"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/boge"
+                    android:textColor="@color/orange"
+                    android:textColorHint="@color/orange"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/emailAddressTitle"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40sp"
+                    android:layout_marginLeft="10sp"
+                    android:ems="10"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/blue"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/emailAddress"
+                    android:layout_width="270sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40sp"
+                    android:ems="10"
+                    android:layout_marginLeft="10sp"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="@string/x"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    android:textColor="@color/orange"
+                    android:textColorHint="@color/orange"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nameDisplayTitle"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:ems="10"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="NAME"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/blue"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/namedisplay"
+                    android:layout_width="270sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:ems="10"
+                    android:layout_marginLeft="10sp"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="@string/x"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColor="@color/orange"
+                    android:textColorHint="@color/orange"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ageDisplayTitle"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:ems="10"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="AGE"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/blue"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/agedisplay"
+                    android:layout_width="270sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:ems="10"
+                    android:layout_marginLeft="10sp"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="@string/x"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColor="@color/orange"
+                    android:textColorHint="@color/orange"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/reviews_display"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:ems="10"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="REVIEWS"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/blue"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/reviews_actual"
+                    android:layout_width="270sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:ems="10"
+                    android:layout_marginLeft="10sp"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="0 (ZERO)"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColor="@color/orange"
+                    android:textColorHint="@color/orange"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/following_display"
+                    android:layout_width="140sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:ems="10"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="FOLLOWERS"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/blue"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/following_actual"
+                    android:layout_width="270sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:ems="10"
+                    android:layout_marginLeft="10sp"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="0 (ZERO)"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColor="@color/orange"
+                    android:textColorHint="@color/orange"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/followers_display"
+                    android:layout_width="140sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:ems="10"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="FOLLOWING"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/blue"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/followers_actual"
+                    android:layout_width="270sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:ems="10"
+                    android:layout_marginLeft="10sp"
+                    android:fontFamily="@font/rainshow"
+                    android:hint="0 (ZER0)"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColor="@color/orange"
+                    android:textColorHint="@color/orange"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/drawerclass"
+                android:layout_width="200sp"
+                android:layout_height="60sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60sp"
+                android:background="@drawable/custom_button1"
+                android:text="PROCEED"
+                android:fontFamily="@font/golden_volcano"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+            <Button
+
+                android:id="@+id/logoutbutton"
+                android:layout_width="150sp"
+                android:layout_height="60sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60sp"
+                android:background="@drawable/custom_button1"
+                android:text="LOGOUT"
+                android:fontFamily="@font/golden_volcano"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "477795078619",
+    "project_id": "transwift-40338",
+    "storage_bucket": "transwift-40338.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477795078619:android:69afe9a0a0fa0bd3ffd7fe",
+        "android_client_info": {
+          "package_name": "com.osepoo.transwift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477795078619-58fbsospp6bhkqk8lbbgmt3eoh4358ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApCPfa3-OwS7RQP9v3Ag7-tpMndryc1HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477795078619-58fbsospp6bhkqk8lbbgmt3eoh4358ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

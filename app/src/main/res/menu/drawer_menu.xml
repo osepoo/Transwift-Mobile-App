@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homemenu"
+            android:title="Home"
+            android:icon="@drawable/home"
+            ></item>
+
+        <item
+            android:id="@+id/bookingmenu"
+            android:title="Book"
+            android:icon="@drawable/book"
+            ></item>
+
+        <item
+            android:id="@+id/routemenu"
+            android:title="Your route"
+            android:icon="@drawable/map"
+            ></item>
+
+        <item
+            android:id="@+id/drivermenu"
+            android:title="Driver details"
+            android:icon="@drawable/driver_dits"
+            ></item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="More">
+        <menu>
+            <group>
+
+                <item
+                    android:id="@+id/commsmenu"
+                    android:title="Hotline"
+                    android:icon="@drawable/call"
+                    ></item>
+
+            </group>
+        </menu>
+        </item>
+    </group>
+</menu>

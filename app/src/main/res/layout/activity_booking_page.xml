@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingPage"
+    android:background="@drawable/background_1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bookingpageimageview"
+                android:layout_width="wrap_content"
+                android:layout_height="70sp"
+                android:src="@drawable/transwift"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="330sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="We already have your name, email and age.... Fill out the rest to book"
+                android:textColor="@color/orange"
+                android:fontFamily="@font/rainshow"
+                android:lineSpacingMultiplier="1.2"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/where_are_you_booking_from"
+                android:textColorHint="@color/orange"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="50sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:textColor="@color/orange"
+                    android:textSize="25sp"
+                    android:autofillHints=""
+                    android:id="@+id/bookingfrom">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/where_are_you_going_to"
+                android:textColorHint="@color/orange"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="20sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:textColor="@color/orange"
+                    android:textSize="25sp"
+                    android:autofillHints=""
+                    android:id="@+id/bookingdestination">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/registeremail"
+                android:layout_width="400sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20sp"
+                android:ems="10"
+                android:hint="Amount to be paid is: "
+                android:fontFamily="@font/rainshow"
+                android:textAlignment="center"
+                android:textColorHint="@color/blue"
+                android:textSize="25sp"
+                android:autofillHints=""/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="Confirm password here"
+                android:textColorHint="@color/orange"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="20sp"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:textColor="@color/orange"
+                    android:textSize="25sp"
+                    android:autofillHints=""
+                    android:id="@+id/confirmbookingpassword">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/submitbookingbutton"
+                android:layout_width="150sp"
+                android:layout_height="60sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60sp"
+                android:background="@drawable/custom_button1"
+                android:text="BOOK"
+                android:fontFamily="@font/golden_volcano"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

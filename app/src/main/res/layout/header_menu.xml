@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200sp"
+    android:padding="20sp"
+    android:background="@color/blue">
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="101dp"
+        android:src="@mipmap/transwiftlite"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/we_make_it_easier"
+        android:textStyle="bold"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="10sp"
+        android:textSize="20sp"
+        android:textColor="@color/orange">
+    </TextView>
+
+</LinearLayout>
